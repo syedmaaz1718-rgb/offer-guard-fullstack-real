@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/33108672/README.md)
+
 # OfferGuard
 
 Explainable NLP screening for suspicious job and internship language.
