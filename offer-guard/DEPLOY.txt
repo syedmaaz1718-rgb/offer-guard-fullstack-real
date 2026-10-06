@@ -1,0 +1,6 @@
+FULL STACK: see RENDER_SETUP.md
+Local: npm ci && npm test && npm run build && npm start
+Render Node web service: npm ci && npm run build; npm start
+Set NODE_VERSION22.23.3, NODE_ENVproduction, DATABASE_URL and SESSION_SECRET privately.
+Health: /api/health. External PostgreSQL needed; no SQLite/local disk in production.
+dist-only Netlify upload remains browser-only and cannot save history.
